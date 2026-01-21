@@ -7,10 +7,10 @@ class Relational
 		int a=sc.nextInt();
 		if (a>=18){
 			
-			System.out.println("Allowed");
+			System.out.println("The person's age is "+a+" and can vote");
 		}
 		else {
-			System.out.println("Not allowed");
+			System.out.println("The person's age is "+a+" and cannot vote");
 		}
 	}
 }
